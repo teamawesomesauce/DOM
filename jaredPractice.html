@@ -1,0 +1,32 @@
+<!DOCTYPE html> // this is the tutorial found on https://www.youtube.com/watch?v=wbB3lVyUvAM
+<meta charset="UTF-8" />
+<html>
+
+<head>
+<script type="text/javascript">
+
+
+function incButtonClick()
+{
+var i = parseInt(num.innerHTML);
+i++;
+//var h1 = document.createElement("h1");
+//var str = i.toString()
+//var txt = document.createTextNode(str);
+//h1.appendChild(txt);
+//document.write(h1);
+num.innerHTML = i.toString();
+}
+
+
+</script>
+</head>
+<body>
+
+<h1 id = 'num'>1</h1>
+<button id = 'incButton' onclick=incButtonClick()>>Increment</button>
+<h1>hello</h1>
+<h2> Eat yo Veggies! </h2>
+
+</body>
+</html>
